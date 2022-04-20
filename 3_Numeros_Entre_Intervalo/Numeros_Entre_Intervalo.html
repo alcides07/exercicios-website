@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Numeros_Entre_Intervalo.css">
+    <title>Números entre um intervalo</title>
+</head>
+<body>
+    <header> <h1 id = "titulo"> Números entre um intervalo </h1> </header>
+
+    <section id = "secao">  
+        <div id = "valores"> 
+            <p class = "textos"> Início: <input type = "number" name = "inicio" id = "inicio"> </p>
+            <p class = "textos"> Fim: <input type = "number" name = "fim" id = "fim"> </p>
+            <p class = "textos"> Passo: <input type = "number" name = "passo" id = "passo"> </p>
+            <p class = "textos"> Separador: 
+                <select name = "separador" id = "separador">
+                    <option value = "espaco">Espaço</option>
+                    <option value = "seta">Seta</option>
+                    <option value = "virgula">Vírgula</option>
+                </select>
+            </p>
+            <p id = "caixa_botao"> 
+                <input type = "button" value = "Gerar" id = "botao" onclick = "contagem()"><br>
+                <p id = "enter"> Ou Pressione <b> ENTER </b> </p>
+            </p>
+        </div>
+        
+    </section>
+    <footer> <p id = "autor"> @Alcides07 </p> </footer>
+    <script src = "Numeros_Entre_Intervalo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Identificador_Idade.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header> <h1 id = "titulo"> Verificador de Idade </h1> </header>
+    <section id = "secao">
+       <div>
+           <p id = "caixa_ano"> Data de Nascimento: 
+               <input type = "date" name = "nascimento" id = "nascimento">
+           </p>
+
+           <p id = "caixa_sexo"> <b> Sexo: </b>
+               <input type = "radio" name = "radioSexo" id = "masculino" checked>
+               <label for = "masculino"> Masculino </label>
+               <input type = "radio" name = "radioSexo" id = "feminino">
+               <label for = "feminino"> Feminino </label>
+           </p>
+           <p id = "caixa_botao">
+               <input id = "botao" type = "button" value = "Verificar Situação" onclick = "verificar()">
+               <p id = "enter"> Ou Pressione <b> ENTER </b> </p>
+           </p>
+       </div>
+
+       <p id = "texto_resultado">
+            Preencha os dados acima para ver o resultado!
+       </p>
+        <div id = "resultado"> </div>
+    </section>
+    
+    <footer> <p id = "autor"> @Alcides07 </p> </footer>
+    <script src = "Identificador_Idade.js"></script>
+</body>
+</html>

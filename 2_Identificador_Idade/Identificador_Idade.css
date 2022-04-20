@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(32, 1, 15);
+    padding-top: 0.1em;
+}
+
+#secao{
+    background-color: rgb(211, 211, 211);
+    border-radius: 0.6em;
+    padding: 2em;
+    width: 30em;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.452);  
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 240, 240);;
+}
+
+#caixa_ano{
+    color: rgb(17, 17, 17);
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#caixa_sexo{
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+    font-size: 13pt;
+}
+
+#caixa_botao{
+    padding-top: 0.8em;
+    text-align: center;
+}
+
+#botao{
+    width: 10.5em;
+    height: 2em;
+    border: 1px solid;
+    border-radius: 6.5px;
+    border-color: rgb(12, 1, 54);;
+    background-color: rgb(253, 193, 103);
+    font-weight: bold;
+    font-size: 10.5pt;
+}
+
+#botao:hover{
+    background-color: rgb(253, 182, 76);
+    cursor:pointer;
+}
+
+#enter{
+    text-align: center;
+    margin-top: -0.7em;
+}
+
+#nascimento{
+    height: 1.6em;
+    width: 9em;
+    font-size: 11pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto_resultado{
+    text-align: center;
+    padding-top: 1em;
+}
+
+#resultado{
+    text-align: center;
+}
+
+#autor{
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+    text-align: center;
+}

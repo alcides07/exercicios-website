@@ -1,0 +1,45 @@
+body{
+    padding: 6em;
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(243, 240, 240);
+    font-size: 25pt;
+}
+
+#horario{
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35pt;
+}
+
+#secao{
+    background-color: rgb(211, 211, 211);
+    border-radius: 0.6em;
+    padding: 2em;
+    width: 30em;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.452);
+}
+
+#quadro_foto{
+    padding-top: 1em;
+    text-align: center;
+}
+
+#foto{
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+}
+
+#autor{
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(243, 240, 240);;
+    text-align: center;
+}
