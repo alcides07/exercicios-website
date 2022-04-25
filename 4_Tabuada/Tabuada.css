@@ -9,7 +9,7 @@ body{
     font-size: 25pt;
 }
 
-#secao{
+#secao_principal{
     background-color: rgb(211, 211, 211);
     border-radius: 0.6em;
     padding: 2em;
@@ -18,11 +18,12 @@ body{
     box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.452);
 }
 
-#numero{
+#input_numero{
     height: 1.5em;
+    text-align: center;
 }
 
-.textos{
+.txt_num{
     font-weight: bold;
 }
 
@@ -47,17 +48,48 @@ body{
     text-align: center;
 }
 
-#enter{
+#txt_enter{
     text-align: center;
     margin-top: -0.7em;
 }
 
-#caixa_tab{
-    padding-top: 1em;
+#txt_mul{
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+#txt_div{
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+#txt_adi{
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+#txt_sub{
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+#quadro_1{
+    float: left;
+    padding-left: 1em;
+}
+
+#quadro_2{
+    float: right;
+}
+
+.secoes_select{
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-right: 2em;
     text-align: center;
 }
 
-#sel_tabuada{
+.caixas_select{
     padding: 0.8em;
     overflow: hidden;
     border-radius: 1em;
