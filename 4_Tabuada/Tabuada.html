@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "Tabuada.css">
+        <title>Tabuadas</title>
+    </head>
+    <body>
+        <header> <h1 id = "titulo"> Tabuadas </h1> </header>
+
+        <section id = "secao_principal">  
+            <div> 
+                <p class = "txt_num"> Número: <input type = "number" name = "input_numero" id = "input_numero"> </p>
+                <p id = "caixa_botao"> 
+                    <input type = "button" value = "Gerar Tabuada" id = "botao" onclick = "tabuada()"><br>
+                    <p id = "txt_enter"> Ou Pressione <b> ENTER </b> </p>
+                </p>
+            </div>
+
+            <section id = "secao_geral_selects">
+                <section id = "quadro_1"> 
+                    <div id = "multiplicacao" class = "secoes_select"> 
+                        <div id = "txt_mul"></div>
+                    </div>
+
+                    <div id = "divisao" class = "secoes_select"> 
+                        <div id = "txt_div"></div>
+                    </div>
+                </section>
+
+                <section id = "quadro_2"> 
+                    <div id = "adicao" class = "secoes_select">
+                        <div id = "txt_adi"></div>
+                    </div>
+
+                    <div id = "subtracao" class = "secoes_select">
+                        <div id = "txt_sub"></div>
+                    </div>
+                </section>
+
+            </section>
+        </section>
+
+        <footer> <p id = "autor"> @Alcides07 </p> </footer>
+        <script src = "Tabuada.js"></script>
+
+    </body>
+</html>
