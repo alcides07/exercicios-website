@@ -1,0 +1,73 @@
+body{
+    padding: 0.5em;
+    background-color: rgb(12, 1, 54);
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(243, 240, 240);
+    font-size: 25pt;
+}
+
+#secao{
+    background-color: rgb(211, 211, 211);
+    border-radius: 0.6em;
+    padding: 2em;
+    width: 30em;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(78, 78, 78, 0.452);
+}
+
+#numero{
+    height: 1.5em;
+}
+
+.textos{
+    font-weight: bold;
+}
+
+#botao{
+    width: 10.5em;
+    height: 2em;
+    border: 1px solid;
+    border-radius: 6.5px;
+    border-color: rgb(12, 1, 54);;
+    background-color: rgb(253, 193, 103);
+    font-weight: bold;
+    font-size: 10.5pt;
+}
+
+#botao:hover{
+    background-color: rgb(253, 182, 76);
+    cursor:pointer;
+}
+
+#caixa_botao{
+    padding-top: 1em;
+    text-align: center;
+}
+
+#enter{
+    text-align: center;
+    margin-top: -0.7em;
+}
+
+#caixa_tab{
+    padding-top: 1em;
+    text-align: center;
+}
+
+#sel_tabuada{
+    padding: 0.8em;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+#autor{
+    font-family: Arial;
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(243, 240, 240);;
+    text-align: center;
+}
