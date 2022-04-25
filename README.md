@@ -10,3 +10,6 @@ Os exercícios para a Web disponíveis abaixo surgiram de desafios propostos pel
 
 3 - O terceiro exercício abaixo gera uma faixa de números (inteiros ou reais) entre um determinado intervalo escolhido. Por exemplo, os números existentes entre 1 e 10 saltando 2 unidades, que resulta em: 3, 5, 7 e 9.\
 👉 [Exercício dos Valores Entre um Intervalo](https://alcides07.github.io/Exercicios_Website/3_Numeros_Entre_Intervalo/Numeros_Entre_Intervalo.html)
+
+4 - O quarto exercício gera a tabuada da multiplicação de um determinado número digitado pelo usuário.\
+👉 [Exercício da Tabuada](https://alcides07.github.io/Exercicios_Website/4_Tabuada/Tabuada.html)
